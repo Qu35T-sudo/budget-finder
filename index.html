@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="Designed by TechGuy-KE">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <!-- Ionicon Framework -->
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+   <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+   
+   <!-- Stylesheet -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <!-- Title -->
+   <title>Budget Finder</title>
+</head>
+
+<body>
+
+   <div class="top">
+      <div class="budget">
+         <div class="budget-title">
+            Available Budget in <span class="budget-title-month">%Month%</span>:
+         </div>
+
+         <div class="budget-value">+ 2,345.64</div>
+
+         <div class="budget-income clearfix">
+            <div class="budget-income-text">Income</div>
+            <div class="right">
+               <div class="budget-income-value">+ 4,300.00</div>
+               <div class="budget-income-percentage">&nbsp;</div>
+            </div>
+         </div>
+
+         <div class="budget-expenses clearfix">
+            <div class="budget-expenses-text">Expenses</div>
+            <div class="right clearfix">
+               <div class="budget-expenses-value">- 1,954.36</div>
+               <div class="budget-expenses-percentage">45%</div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+   <div class="bottom">
+      <div class="add">
+         <div class="add-container">
+            <select class="add-type">
+               <option value="inc" selected>+</option>
+               <option value="exp">-</option>
+            </select>
+            <input type="text" class="add-description" placeholder="Add description">
+            <input type="number" class="add-value" placeholder="Value">
+            <button class="add-btn"><i class="ion-ios-checkmark-outline"></i></button>
+         </div>
+      </div>
+
+      <div class="container clearfix">
+         <div class="income">
+            <h2 class="icome-title">Income</h2>
+
+            <div class="income-list">
+
+
+            </div>
+         </div>
+
+
+
+         <div class="expenses">
+            <h2 class="expenses-title">Expenses</h2>
+
+            <div class="expenses-list">
+
+            </div>
+         </div>
+      </div>
+      <footer>
+         <ul class="social-links">
+            <li><a class="btn-twitter" href="#"><i title="Tweet on Twitter" class="fa fa-twitter"></i></a></li>
+            <li><a class="btn-linkedin" href="#"><i title="Follow on Linked In" class="fa fa-linkedin"></i></a></li>
+            <li><a class="btn-instagram" href="#"><i title="Follow on Instagram" class="fa fa-instagram"></i></a></li>
+            <li><a class="btn-googleplus" href="#"><i title="Share on Google +" class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://github.com/TechGuy-KE"><i title="Star on Github" class="fa fa-github"></i></a></li>
+         </ul>
+
+         <div class="footer-title">
+            Gitonga Deus
+         </div>
+
+         <ul class="copyright">
+            <li>&copy; 2019 - All Rights Reserved</li>
+            <li>Design by <a href="#home" class="smoothscroll" target="_self">TechGuy-KE</a></li>
+         </ul>
+      </footer>
+
+   </div>
+
+   <script src="js/app.js"></script>
+</body>
+
+</html>
